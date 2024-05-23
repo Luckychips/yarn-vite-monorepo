@@ -1266,6 +1266,7 @@ __metadata:
   resolution: "admins@workspace:apps/admins"
   dependencies:
     "@vitejs/plugin-vue": "npm:^5.0.4"
+    common-ui: "workspace:^"
     typescript: "npm:^5.2.2"
     vite: "npm:^5.2.0"
     vue: "npm:^3.4.21"
@@ -1507,7 +1508,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"common-ui@workspace:packages/common-ui":
+"common-ui@workspace:^, common-ui@workspace:packages/common-ui":
   version: 0.0.0-use.local
   resolution: "common-ui@workspace:packages/common-ui"
   dependencies:
@@ -2502,6 +2503,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:^7.2.0"
     "@typescript-eslint/parser": "npm:^7.2.0"
     "@vitejs/plugin-react": "npm:^4.2.1"
+    common-ui: "workspace:^"
     eslint: "npm:^8.57.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-react-refresh: "npm:^0.4.6"
