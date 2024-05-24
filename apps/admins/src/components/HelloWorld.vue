@@ -7,6 +7,6 @@ defineProps({
 </script>
 
 <template>
-  <h1>Welcome to the  portal</h1>
+  <h1>Welcome to the {{instanceName}} portal</h1>
 
 </template>
