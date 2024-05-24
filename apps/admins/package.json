@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "common-ui": "workspace:^",
     "vue": "^3.4.21"
   },
   "devDependencies": {
+    "@types/bootstrap": "^5",
     "@vitejs/plugin-vue": "^5.0.4",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
