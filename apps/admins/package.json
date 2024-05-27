@@ -11,7 +11,8 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "common-ui": "workspace:^",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2"
   },
   "devDependencies": {
     "@types/bootstrap": "^5",
