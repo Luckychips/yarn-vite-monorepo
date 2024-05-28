@@ -2,10 +2,8 @@
   <main>user profile page</main>
 </template>
 
-<script>
-export default {
-  name: 'PageUserProfile'
-}
+<script setup lang="ts">
+
 </script>
 
 <style scoped>

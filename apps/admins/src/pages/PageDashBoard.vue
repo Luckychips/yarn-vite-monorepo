@@ -2,10 +2,8 @@
   <main>dashboard page</main>
 </template>
 
-<script>
-export default {
-  name: 'PageDashBoard'
-}
+<script setup lang="ts">
+
 </script>
 
 <style scoped>

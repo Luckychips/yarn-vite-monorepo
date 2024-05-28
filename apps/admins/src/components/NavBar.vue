@@ -1,10 +1,8 @@
-<script setup>
+<script setup lang="ts">
   import { Banner } from 'common-ui'
-  import { useStore } from '../libs/sm'
-  import userStore from '../stores/user'
 
-  function onChangeKeyword(event) {
-    console.log(event.target.value)
+  function onChangeKeyword(event: Event) {
+    console.log(event.target)
   }
 </script>
 

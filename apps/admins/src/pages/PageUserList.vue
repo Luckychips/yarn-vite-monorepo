@@ -2,10 +2,8 @@
   <main>user list page</main>
 </template>
 
-<script>
-export default {
-  name: 'PageUserList'
-}
+<script setup lang="ts">
+
 </script>
 
 <style scoped>
