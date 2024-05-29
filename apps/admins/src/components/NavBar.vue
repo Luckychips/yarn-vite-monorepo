@@ -1,6 +1,4 @@
 <script setup lang="ts">
-  import { Banner } from 'common-ui'
-
   function onChangeKeyword(event: Event) {
     console.log(event.target)
   }

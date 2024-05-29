@@ -1,5 +1,7 @@
 <template>
-  <main>dashboard page</main>
+  <main>
+
+  </main>
 </template>
 
 <script setup lang="ts">
