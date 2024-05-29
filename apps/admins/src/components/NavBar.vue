@@ -1,5 +1,11 @@
 <script setup lang="ts">
-  function onChangeKeyword(event: Event) {
+  import { store } from '../stores/user'
+
+  const onChangeKeyword = (event: Event) => {
+    store.setUser({
+      name: 'lee'
+    })
+
     console.log(event.target)
   }
 </script>
