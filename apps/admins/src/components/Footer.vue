@@ -1,5 +1,12 @@
 <style scoped>
+  footer {
+    position: fixed;
+    bottom: 0;
+  }
 
+  .copyright {
+    padding-left: 10vw;
+  }
 </style>
 
 <script setup lang="ts">
@@ -7,6 +14,8 @@
 </script>
 
 <template>
-  <footer v-if="store.user">{{store.user.name}}</footer>
+  <footer v-if="store.user" class="bg-body-tertiary w-screen">
+    <span class="copyright">{{store.user.name}}</span>
+  </footer>
 </template>
 
