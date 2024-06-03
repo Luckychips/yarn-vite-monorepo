@@ -1,0 +1,7 @@
+export { default as PageUserList } from './PageUserList.vue'
+export { default as PageUserProfile } from './PageUserProfile.vue'
+export { default as PageCalendar } from './PageCalendar.vue'
+export { default as PageChart } from './PageChart.vue'
+export { default as PageChatting } from './PageChatting.vue'
+export { default as PageDashBoard } from './PageDashBoard.vue'
+export { default as PageNotification } from './PageNotification.vue'
