@@ -5,11 +5,13 @@ import './index.css'
 import App from './App.vue'
 import DashBoard from './pages/PageDashBoard.vue'
 import UserList from './pages/PageUserList.vue'
+import UserProfile from './pages/PageUserProfile.vue'
 
 const routes = [
     { path: '/', component: DashBoard },
     { path: '/dashboard', component: DashBoard },
-    { path: '/list/user', component: UserList },
+    { path: '/user/list', component: UserList },
+    { path: '/user/profile', component: UserProfile },
 ]
 const router = createRouter({
     history: createWebHistory(),
