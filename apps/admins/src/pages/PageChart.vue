@@ -1,5 +1,5 @@
 <template>
-  <main>chart</main>
+  <main>hello chart</main>
 </template>
 
 <script>
