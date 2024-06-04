@@ -3,16 +3,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 import App from './App.vue'
-// import {
-    // PageCalendar,
-    // PageChart,
-    // PageChatting,
-    // PageDashBoard,
-    // PageNotification,
-    // PageUserList,
-    // PageUserProfile,
-// } from './pages'
-
 import PageCalendar from './pages/PageCalendar.vue'
 import PageChart from './pages/PageChart.vue'
 import PageChatting from './pages/PageChatting.vue'
