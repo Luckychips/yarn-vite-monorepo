@@ -1,8 +1,10 @@
 <style scoped>
   #side-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 10vw;
     height: 100vh;
-    padding-top: 55px;
   }
 </style>
 <script>
